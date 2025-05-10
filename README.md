@@ -80,9 +80,12 @@
   <section id="results">
         <h2>Results</h2>
         <div class="results-gallery">
-            <img src="https://via.placeholder.com/400x300?text=Grid+Simulation" alt="Grid Simulation" class="result-image">
-            <img src="https://via.placeholder.com/400x300?text=BFS+Pathfinding" alt="BFS Pathfinding" class="result-image">
-            <img src="https://via.placeholder.com/400x300?text=K-means+Clustering" alt="K-means Clustering" class="result-image">
+           <h3>BFS algorithm finding victims</h3>
+            <img src="bfs.png">
+          <h3>A* algorithm finding shortest path</h3>
+            <img src="astar.png">
+          <h3>Kmeans algorithm finding priority zone</h3>
+            <img src="kmeans.png">
         </div>
         <p><strong>Key findings:</strong></p>
         <ul>
@@ -116,12 +119,12 @@
             <div class="contributor">
                 <h3>Mostakem Mia</h3>
                 <p>ID: 221002015</p>
-                <p><a href="https://github.com/">GitHub Profile</a></p>
+                <p><a href="https://github.com/Mostakem-mia">GitHub Profile</a></p>
             </div>
             <div class="contributor">
                 <h3>Ridwanur Rahman Rifat</h3>
                 <p>ID: 221002037</p>
-                <p><a href="https://github.com/">GitHub Profile</a></p>
+                <p><a href="https://github.com/codesWithRifat">GitHub Profile</a></p>
             </div>
         </div>
         <p><strong>Course Teacher:</strong> Md. Sabbir Hosen Mamun</p>
