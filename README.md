@@ -30,44 +30,29 @@
 
 <section id="features">
         <h2>Features</h2>
-        <div class="feature-list">
-            <div class="feature-card">
-                <h3>Dynamic Environment</h3>
-                <p>Grid-based environment with customizable obstacles and terrain</p>
-            </div>
-            <div class="feature-card">
-                <h3>Agent Placement</h3>
-                <p>Random or predefined placement of rescue agents and victims</p>
-            </div>
-            <div class="feature-card">
-                <h3>Victim Clustering</h3>
-                <p>K-means algorithm for efficient victim grouping</p>
-            </div>
-            <div class="feature-card">
-                <h3>Pathfinding</h3>
-                <p>Both BFS and A* algorithms for optimal path calculation</p>
-            </div>
-            <div class="feature-card">
-                <h3>Visualization</h3>
-                <p>Real-time Pygame visualization of rescue operations</p>
-            </div>
-            <div class="feature-card">
-                <h3>Performance Metrics</h3>
-                <p>Tracking of rescue times, path lengths, and efficiency metrics</p>
-            </div>
-        </div>
+         <ul>
+            <li><p><b>Dynamic Environment:</b> Grid-based environment with random obstacles and terrain</p></li>
+            <li><p><b>Agent Placement:</b> Random placement of rescue agents and victims</p></li>
+            <li><p><b>Victim Clustering:</b> K-means algorithm for efficient victim grouping</p></li>
+            <li><p><b>Pathfinding:</b> Use BFS to find victims and A* algorithms for optimal path calculation</p></li>
+            <li><p><b>Visualization:</b> Real-time Pygame visualization of rescue operations</p></li>
+        </ul>
 </section>
 
 <section id="installation">
         <h2>Installation</h2>
         <p>1. Clone the repository:</p>
         <div class="code-block">
-            git clone https://github.com/yourusername/disaster-response-system.git<br>
+            git clone https://github.com/codesWithRifat/Disaster_Response_System.git<br>
             cd disaster-response-system
-        </div>
+        </div><br>
         <p>2. Install required dependencies:</p>
         <div class="code-block">
-            pip install -r requirements.txt
+           <ul>     
+           <li>NumPy</li> 
+           <li>scikit-learn</li>
+            <li>Pygame </li>
+           </ul>       
         </div>
   </section>
 
@@ -77,28 +62,18 @@
         <div class="code-block">
             python main.py
         </div>
-        <p><strong>Controls:</strong></p>
-        <ul>
-            <li><code>SPACE</code>: Start/Pause simulation</li>
-            <li><code>R</code>: Reset simulation</li>
-            <li><code>ESC</code>: Quit</li>
-        </ul>
     </section>
 
    <section id="project-structure">
         <h2>Project Structure</h2>
         <div class="code-block">
             disaster-response-system/<br>
-            ├── main.py                # Main simulation entry point<br>
-            ├── grid.py                # Grid environment implementation<br>
-            ├── pathfinding/           # Pathfinding algorithms<br>
-            │   ├── bfs.py             # BFS implementation<br>
-            │   └── astar.py           # A* implementation<br>
-            ├── clustering/            # Clustering algorithms<br>
-            │   └── kmeans.py          # K-means implementation<br>
-            ├── assets/                # Resource files<br>
-            ├── requirements.txt       # Dependencies<br>
-            └── README.md              # This file
+            ├── main.py    <br>           
+            ├── grid.py    <br>            
+            ├── bfs.py     <br>       
+            │── astar.py   <br>            
+            ├── kmeans.py    <br>    
+            └── README.md   <br>         
         </div>
     </section>
 
@@ -111,7 +86,6 @@
         </div>
         <p><strong>Key findings:</strong></p>
         <ul>
-            <li>A* outperformed BFS in complex environments with heuristics</li>
             <li>K-means effectively grouped victims for efficient rescue allocation</li>
             <li>System demonstrated reduced simulated rescue times</li>
         </ul>
@@ -133,7 +107,6 @@
             <li>Dynamic environment with moving obstacles</li>
             <li>Reinforcement learning for adaptive agents</li>
             <li>Enhanced visualization and GUI controls</li>
-            <li>Integration with real-world GIS data</li>
         </ul>
     </section>
 
